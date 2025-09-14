@@ -123,8 +123,8 @@ useSeoMeta({
 });
 
 // Form state
-const email = ref("");
-const password = ref("");
+const email = ref("admin@example.com");
+const password = ref("password");
 const rememberMe = ref(false);
 const showPassword = ref(false);
 const isLoading = ref(false);
